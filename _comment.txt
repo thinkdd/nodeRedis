@@ -1,0 +1,14 @@
+./node_modules/nodemon/bin/nodemon.js server.js
+
+
+docker ps
+docker exec -it 59b /bin/bash
+mongo
+
+show dbs
+use register
+show collections
+db.users.find().pretty()
+
+
+
